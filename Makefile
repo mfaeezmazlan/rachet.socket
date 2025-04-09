@@ -31,7 +31,7 @@ profile:
 apidocs:
 	apigen --title Ratchet -d reports/api \
 		-s src/ \
-		-s vendor/ratchet/rfc6455/src \
+		-s vendor/mfmdevsystem/rfc6455/src \
 		-s vendor/react/event-loop/src \
 		-s vendor/react/socket/src \
 		-s vendor/react/stream/src \

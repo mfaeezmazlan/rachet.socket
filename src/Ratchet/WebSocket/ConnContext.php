@@ -1,6 +1,6 @@
 <?php
 namespace Ratchet\WebSocket;
-use Ratchet\RFC6455\Messaging\MessageBuffer;
+use mfmdevsystem\RFC6455\Messaging\MessageBuffer;
 
 class ConnContext {
     /**
@@ -9,7 +9,7 @@ class ConnContext {
     public $connection;
 
     /**
-     * @var \Ratchet\RFC6455\Messaging\MessageBuffer;
+     * @var \mfmdevsystem\RFC6455\Messaging\MessageBuffer;
      */
     public $buffer;
 
